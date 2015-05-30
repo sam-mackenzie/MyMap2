@@ -13,6 +13,7 @@
 		0D6F15961B17CF0D005D26E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6F15951B17CF0D005D26E3 /* Images.xcassets */; };
 		0D6F15991B17CF0E005D26E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D6F15971B17CF0E005D26E3 /* LaunchScreen.xib */; };
 		0D6F15A51B17CF0E005D26E3 /* MyMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F15A41B17CF0E005D26E3 /* MyMapTests.swift */; };
+		0D6F15AF1B17CF32005D26E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6F15AE1B17CF32005D26E3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		0D6F159E1B17CF0E005D26E3 /* MyMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6F15A31B17CF0E005D26E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6F15A41B17CF0E005D26E3 /* MyMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapTests.swift; sourceTree = "<group>"; };
+		0D6F15AE1B17CF32005D26E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6F15AF1B17CF32005D26E3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		0D6F15801B17CF0D005D26E3 = {
 			isa = PBXGroup;
 			children = (
+				0D6F15AE1B17CF32005D26E3 /* MapKit.framework */,
 				0D6F158B1B17CF0D005D26E3 /* MyMap */,
 				0D6F15A11B17CF0E005D26E3 /* MyMapTests */,
 				0D6F158A1B17CF0D005D26E3 /* Products */,
